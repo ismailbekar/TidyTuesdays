@@ -37,7 +37,7 @@ ggplot(college, aes(reorder(Major_category, Unemployment_rate, FUN= median),
      theme_light()
 
 ggplot(college, aes(ShareWomen, Median, group= Major_category)) +
-     geom_point()     geom_point()
+     geom_point()
 =======
 library(RColorBrewer)
 college <- as.tibble(read.csv("CollegeMajor.csv"))
